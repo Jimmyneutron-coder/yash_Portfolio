@@ -349,7 +349,6 @@ async function init() {
     initActiveLinkTracking();
     initBackToTop();
     initScrollReveal();
-    initContactForm();
   } catch (err) {
     console.error(err);
     document.body.innerHTML = `
