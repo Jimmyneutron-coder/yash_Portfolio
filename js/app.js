@@ -284,21 +284,42 @@ function initScrollReveal() {
 }
 
 /* Contact form — front-end only mock submission */
-function initContactForm() {
-  const form = $('contactForm');
-  const status = $('formStatus');
+const form = document.getElementById('Form');
+const submitBtn = form.querySelector('button[type="submit"]');
 
-  form.addEventListener('submit', (e) => {
+form.addEventListener('submit', async (e) => {
     e.preventDefault();
-    status.textContent = 'Sending…';
 
-    // Simulate a network request. Replace with a real endpoint later.
-    setTimeout(() => {
-      status.textContent = `Thanks! I'll get back to you soon.`;
-      form.reset();
-    }, 700);
-  });
-}
+    const formData = new FormData(form);
+    formData.append("access_key", "e25dd027-5461-46ce-aafa-3377130addcc");
+
+    const originalText = submitBtn.textContent;
+
+    submitBtn.textContent = "Sending...";
+    submitBtn.disabled = true;
+
+    try {
+        const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: formData
+        });
+
+        const data = await response.json();
+
+        if (response.ok) {
+            alert("Success! Your message has been sent.");
+            form.reset();
+        } else {
+            alert("Error: " + data.message);
+        }
+
+    } catch (error) {
+        alert("Something went wrong. Please try again.");
+    } finally {
+        submitBtn.textContent = originalText;
+        submitBtn.disabled = false;
+    }
+});
 
 /* Hide the loader once content is ready */
 function hideLoader() {
