@@ -1,0 +1,136 @@
+{
+  "site": {
+    "name": "Yash Musanwar",
+    "logoText": "YM",
+    "favicon": "assets/images/favicon.png"
+  },
+  "hero": {
+    "greeting": "$ whoami",
+    "name": "Yash Musanwar",
+    "profession": "Frontend Developer",
+    "intro": "Passionate Frontend Developer skilled in HTML, CSS, JavaScript, React.js, Tailwind CSS, and Bootstrap, with a strong focus on creating responsive, user-friendly, and visually appealing web applications. Adept at translating designs into clean, efficient code while ensuring seamless user experiences across devices.",
+    "profileImage": "assets/images/profile.jpg",
+    "resumeLink": "assets/resume.pdf",
+    "socials": [
+      { "name": "GitHub", "url": "https://github.com/Jimmyneutron-coder", "icon": "github" },
+      { "name": "LinkedIn", "url": "https://www.linkedin.com/in/yash-musanwar-488310317/", "icon": "linkedin" },
+      { "name": "Twitter", "url": "https://x.com/yashmusanwar16", "icon": "twitter" },
+      { "name": "Email", "url": "mailto:yashmusanwar123@gmail.com", "icon": "email" }
+    ]
+  },
+  "about": {
+    "eyebrow": "01. About",
+    "heading": "A little about me",
+    "paragraphs": [
+      "I'm a Frontend Developer skilled in HTML, CSS, JavaScript, React.js, Tailwind CSS, and Bootstrap, with a strong focus on creating responsive, user-friendly, and visually appealing web applications.",
+      "I enjoy translating designs into clean, efficient code while ensuring seamless user experiences across devices, and I'm continuously learning and exploring modern web technologies to build interactive, high-performance UIs."
+    ],
+    "highlights": [
+      { "label": "Internship Experience", "value": "6 Months" },
+      { "label": "Personal Projects", "value": "3+" },
+      { "label": "Core Technologies", "value": "9+" },
+      { "label": "Location", "value": "Chandrapur, MH" }
+    ]
+  },
+  "skills": {
+    "eyebrow": "02. Skills",
+    "heading": "Tools & technologies",
+    "categories": [
+      {
+        "name": "Frontend",
+        "items": ["HTML", "CSS", "JavaScript", "React.js", "Tailwind CSS", "Bootstrap", "Responsive Web Design"]
+      },
+      {
+        "name": "APIs & Integration",
+        "items": ["REST API Integration"]
+      },
+      {
+        "name": "Tools & Workflow",
+        "items": ["Git", "GitHub", "Agile Collaboration", "Code Reviews"]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "03. Projects",
+    "heading": "Things I've built",
+    "items": [
+      {
+        "title": "Portfolio Website",
+        "description": "A responsive and visually appealing portfolio website built using HTML, CSS, and JavaScript. Showcases projects, skills, and contact information with a modern, interactive UI, smooth animations, a dark/light mode toggle, and mobile-friendly design. Implements seamless navigation and form handling, optimized for performance and accessibility.",
+        "image": "assets/images/project-devlinks.jpg",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "githubLink": "https://github.com/Jimmyneutron-coder",
+        "liveLink": ""
+      },
+      {
+        "title": "Weather Application",
+        "description": "A responsive weather application built using HTML, CSS, and JavaScript that fetches real-time weather data from an API and displays temperature, humidity, wind speed, and conditions for any searched location. Features dynamic backgrounds based on weather conditions and error handling for invalid locations.",
+        "image": "assets/images/project-devlinks.jpg",
+        "technologies": ["HTML", "CSS", "JavaScript", "Weather API"],
+        "githubLink": "https://github.com/Jimmyneutron-coder",
+        "liveLink": "https://jimmyneutron-coder.github.io/Weather-app/"
+      },
+      {
+        "title": "To-Do List",
+        "description": "A simple, intuitive task management app built using HTML, CSS, and JavaScript. Allows users to add, edit, complete, and delete tasks with local storage integration, drag-and-drop reordering, and filter options for better task organization.",
+        "image": "assets/images/project-devlinks.jpg",
+        "technologies": ["HTML", "CSS", "JavaScript", "Local Storage"],
+        "githubLink": "https://github.com/Jimmyneutron-coder",
+        "liveLink": "https://jimmyneutron-coder.github.io/To-do-List-application/"
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "04. Experience",
+    "heading": "Where I've worked",
+    "items": [
+      {
+        "role": "Web Developer Trainee",
+        "company": "ICEICO Technologies Pvt. Ltd.",
+        "duration": "Feb 2025 — Aug 2025 (6 Months)",
+        "description": "Completed a 6-month internship as a Web Developer Trainee in Nagpur, Maharashtra, building and maintaining responsive, user-facing web interfaces using HTML, CSS, JavaScript, React.js, and Bootstrap.",
+        "responsibilities": [
+          "Collaborated with the development team to translate design requirements into clean, functional, cross-browser compatible web pages, styled using Bootstrap and Tailwind CSS",
+          "Assisted in debugging and optimizing existing codebases, improving UI performance and overall user experience across multiple client-facing pages",
+          "Practiced professional development workflows including Git version control, code reviews, and team collaboration in an Agile-style environment"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "eyebrow": "05. Education",
+    "heading": "Academic background",
+    "items": [
+      {
+        "degree": "Master of Computer Application (MCA)",
+        "institution": "Gondwana University",
+        "duration": "2023 — 2025",
+        "description": "Postgraduate studies in Computer Applications."
+      },
+      {
+        "degree": "Bachelor of Science (B.Sc. C.S.)",
+        "institution": "Gondwana University",
+        "duration": "2017 — 2021",
+        "description": "Undergraduate studies in Computer Science."
+      },
+      {
+        "degree": "Higher Secondary School Certificate",
+        "institution": "Nagpur University",
+        "duration": "2015 — 2017",
+        "description": "Higher secondary education."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "06. Contact",
+    "heading": "Let's build something together",
+    "description": "I'm currently open to new opportunities as a Frontend Developer. Whether you have a question or just want to say hi, my inbox is always open.",
+    "email": "yashmusanwar123@gmail.com",
+    "phone": "+91-7038139481",
+    "location": "Chandrapur, Maharashtra"
+  },
+  "footer": {
+    "text": "Built with HTML, CSS & JavaScript.",
+    "copyright": "© 2026 Yash Musanwar. All rights reserved."
+  }
+}
